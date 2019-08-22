@@ -24,8 +24,8 @@ namespace Discord_Chat_Cloner.Core
         private async Task<string> SendRequest(string path)
         {
             int retries = 0;
-           // while (retries < 10)
-           // {
+            while (retries < 10)
+            {
                 try
                 {
                     return await _client.GetStringAsync($"{_baseUrl}{path}");
@@ -34,7 +34,7 @@ namespace Discord_Chat_Cloner.Core
                 {
                     retries++;
                 }
-        //    }
+            }
             return "[]";
         }
         public async Task<List<Message>> GetMessagesAsync(string channelId, int limit = 100, ulong? before = null)
