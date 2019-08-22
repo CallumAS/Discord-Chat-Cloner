@@ -1,0 +1,45 @@
+﻿<Window x:Class="Discord_Chat_Cloner.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Discord_Chat_Cloner"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        AllowsTransparency="True"
+        WindowStyle="None"
+        MouseDown="Window_MouseDown"
+     TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+     TextElement.FontWeight="Regular"
+     TextElement.FontSize="13"
+     TextOptions.TextFormattingMode="Ideal"
+     TextOptions.TextRenderingMode="Auto"
+     FontFamily="{DynamicResource MaterialDesignFont}"
+        Title="Discord Chat Cloner" Height="450" Width="800" Background="#18191C">
+    <WindowChrome.WindowChrome>
+        <WindowChrome CaptionHeight="0" ResizeBorderThickness="5"/>
+    </WindowChrome.WindowChrome>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60*"/>
+            <RowDefinition Height="60*"/>
+        </Grid.RowDefinitions>
+        <Image Source="{StaticResource Logo}"></Image>
+        <StackPanel Orientation="Horizontal" Width="145" HorizontalAlignment="Right" Height="35" VerticalAlignment="Top">
+            <Button x:Name="MinimizeBtn" Command="{Binding Minimized}" Background="{x:Null}" BorderBrush="{x:Null}" BorderThickness="0" Foreground="#FAFAFA" Grid.Column="0">
+                <materialDesign:PackIcon Kind="WindowMinimize"/>
+            </Button>
+            <Button x:Name="MaximizeBtn" Command="{Binding Maximized}" Background="{x:Null}" BorderBrush="{x:Null}" BorderThickness="0" Foreground="#FAFAFA" Grid.Column="1">
+                <materialDesign:PackIcon Kind="WindowMaximize"/>
+            </Button>
+            <Button x:Name="CloseBtn" Command="{Binding Close}" Background="{x:Null}" BorderBrush="{x:Null}" BorderThickness="0" Foreground="#FAFAFA" Grid.Column="2">
+                <materialDesign:PackIcon Kind="Close"/>
+            </Button>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Orientation="Vertical" Margin="150,0,150,0">
+            <TextBox x:Name="AuthTokenTxtbox" Margin="5" Style="{StaticResource placeHolder}" Tag="Auth Token"/>
+            <TextBox x:Name="ChannelIdTxtbox" Margin="5" Style="{StaticResource placeHolder}" Tag="Channel Id"/>
+            <Button Content="Clone!" Margin="5" Foreground="#FAFAFA" Command="{Binding Cloan}"/>
+        </StackPanel>
+    </Grid>
+</Window>

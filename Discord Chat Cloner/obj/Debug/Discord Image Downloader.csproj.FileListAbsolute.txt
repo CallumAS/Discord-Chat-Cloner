@@ -1,0 +1,28 @@
+C:\Users\Callum\source\repos\Discord Image Downloader\Discord Image Downloader\obj\Debug\Discord Image Downloader.csprojAssemblyReference.cache
+C:\Users\Callum\source\repos\Discord Image Downloader\Discord Image Downloader\obj\Debug\MainWindow.g.cs
+C:\Users\Callum\source\repos\Discord Image Downloader\Discord Image Downloader\obj\Debug\App.g.cs
+C:\Users\Callum\source\repos\Discord Image Downloader\Discord Image Downloader\obj\Debug\Discord Image Downloader_MarkupCompile.cache
+C:\Users\Callum\source\repos\Discord Image Downloader\Discord Image Downloader\obj\Debug\Discord Image Downloader_MarkupCompile.lref
+C:\Users\Callum\source\repos\Discord Image Downloader\Discord Image Downloader\bin\Debug\Discord Image Downloader.exe.config
+C:\Users\Callum\source\repos\Discord Image Downloader\Discord Image Downloader\bin\Debug\Discord Image Downloader.exe
+C:\Users\Callum\source\repos\Discord Image Downloader\Discord Image Downloader\bin\Debug\Discord Image Downloader.pdb
+C:\Users\Callum\source\repos\Discord Image Downloader\Discord Image Downloader\bin\Debug\DevExpress.Mvvm.dll
+C:\Users\Callum\source\repos\Discord Image Downloader\Discord Image Downloader\bin\Debug\DevExpress.Mvvm.UI.dll
+C:\Users\Callum\source\repos\Discord Image Downloader\Discord Image Downloader\bin\Debug\MaterialDesignColors.dll
+C:\Users\Callum\source\repos\Discord Image Downloader\Discord Image Downloader\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Callum\source\repos\Discord Image Downloader\Discord Image Downloader\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Callum\source\repos\Discord Image Downloader\Discord Image Downloader\bin\Debug\DevExpress.Mvvm.pdb
+C:\Users\Callum\source\repos\Discord Image Downloader\Discord Image Downloader\bin\Debug\DevExpress.Mvvm.UI.pdb
+C:\Users\Callum\source\repos\Discord Image Downloader\Discord Image Downloader\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Callum\source\repos\Discord Image Downloader\Discord Image Downloader\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Callum\source\repos\Discord Image Downloader\Discord Image Downloader\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Callum\source\repos\Discord Image Downloader\Discord Image Downloader\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Callum\source\repos\Discord Image Downloader\Discord Image Downloader\obj\Debug\App.baml
+C:\Users\Callum\source\repos\Discord Image Downloader\Discord Image Downloader\obj\Debug\MainWindow.baml
+C:\Users\Callum\source\repos\Discord Image Downloader\Discord Image Downloader\obj\Debug\Discord Image Downloader.g.resources
+C:\Users\Callum\source\repos\Discord Image Downloader\Discord Image Downloader\obj\Debug\Discord_Image_Downloader.Properties.Resources.resources
+C:\Users\Callum\source\repos\Discord Image Downloader\Discord Image Downloader\obj\Debug\Discord Image Downloader.csproj.GenerateResource.cache
+C:\Users\Callum\source\repos\Discord Image Downloader\Discord Image Downloader\obj\Debug\Discord Image Downloader.csproj.CoreCompileInputs.cache
+C:\Users\Callum\source\repos\Discord Image Downloader\Discord Image Downloader\obj\Debug\Discord Image Downloader.csproj.CopyComplete
+C:\Users\Callum\source\repos\Discord Image Downloader\Discord Image Downloader\obj\Debug\Discord Image Downloader.exe
+C:\Users\Callum\source\repos\Discord Image Downloader\Discord Image Downloader\obj\Debug\Discord Image Downloader.pdb
