@@ -26,14 +26,9 @@ namespace Discord_Chat_Cloner.Core
             int retries = 0;
             while (retries < 10)
             {
-                try
-                {
+                try {
                     return await _client.GetStringAsync($"{_baseUrl}{path}");
-                }
-                catch
-                {
-                    retries++;
-                }
+                } catch{ retries++; }
             }
             return "[]";
         }
@@ -44,7 +39,10 @@ namespace Discord_Chat_Cloner.Core
             {
                 path += $"&before={before.Value}";
             }
-            return JsonConvert.DeserializeObject<List<Message>>(await SendRequest(path));
+            try {
+                return JsonConvert.DeserializeObject<List<Message>>(await SendRequest(path));
+            } catch{ }
+            return new List<Message>();
         }
     }
 }
